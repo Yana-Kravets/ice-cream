@@ -1,0 +1,28 @@
+@import './base/base';
+@import './base/common';
+@import './base/container';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/gallery';
+@import './layout/reviews';
+@import './layout/contacts';
+@import './layout/footer';
+
+@import './components/buy-now-modal';
+@import './components/read-more-modal';
+@import './components/location-modal';
+@import './components/franchise-modal';
+@import './components/ingredients-modal';
+@import './utils/breakpoints';
+@import './utils/visually-hidden';
+@import './utils/var';
+
+// плавність гортання сторінки треба додати в main scss
+
+// html {
+//   scroll-behavior: smooth;
+// }

@@ -1,0 +1,99 @@
+<section class="hero-section">
+  <div class="container hero-container">
+    <div class="hero-second-wrap">
+      <h1 class="hero-title animate__animated animate__rubberBand infin">
+        ice cream made with
+        <span class="hero-title hero-title--active">passion</span>
+      </h1>
+      <ul class="hero-button-list list">
+        <li class="hero-button-list__item--main">
+          <a class="hero-button-products__link link" href="#products"
+            >Products</a
+          >
+        </li>
+        <li class="hero-button-list__item">
+          <a class="hero-button-about__link link" href="#about"
+            >How it’s made?</a
+          >
+        </li>
+      </ul>
+      <div class="hero-desc-wrap">
+        <picture>
+          <source
+            srcset="
+              ./images/desktop/hero/plate@2x.png,
+              ./images/desktop/hero/plate.png
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="./images/tablet/hero/plate@2x.png"
+            media="(max-width: 1199px)"
+          />
+          <img
+            loading="lazy"
+            class="hero-desc-img"
+            src="./images/tablet/hero/plate.png"
+            alt="ice-cream on the plate"
+          />
+        </picture>
+        <div class="hero-wrapper-arrow">
+          <p class="hero-desc-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
+          </p>
+          <div class="hidden-hero-window-wrapper">
+            <button type="button" class="hero-desc-btn">
+              <svg class="hero-desc-btn__icon" width="40" height="20">
+                <use href="./images/sprite.svg#arrow"></use>
+              </svg>
+            </button>
+            <div class="hidden-hero-window">
+              We send 30% of each sale to support Ukraine
+              <div>Stand with Ukraine! Slava Ukraini!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-main-pic">
+        <picture>
+          <source
+            srcset="
+              ./images/desktop/hero/main-ice-cream@2x.png,
+              ./images/desktop/hero/main-ice-cream.png
+            "
+            media="(min-width: 1200px)"
+          />
+
+          <source
+            srcset="
+              ./images/tablet/hero/main-ice-cream@2x.png,
+              ./images/tablet/hero/main-ice-cream.png
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="./images/mobile/hero/main-ice-cream@2x.png"
+            media="(max-width: 767px)"
+          />
+          <img
+            loading="lazy"
+            class="hero-picture animate__animated animate__backInUp infin"
+            src="./images/mobile/hero/main-ice-cream.png"
+            alt="ice-cream"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="hero-about-wrap">
+      <ul class="hero-about list">
+        <li class="hero-about__item--first">16</li>
+        <li class="hero-about__item--second">cafes</li>
+      </ul>
+      <ul class="hero-about list">
+        <li class="hero-about__item--first">23</li>
+        <li class="hero-about__item--second">food trucks</li>
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,106 @@
+<div
+  class="backdrop-ingredients ingredients-hidden-first"
+  ingredients-modal-first
+>
+  <div class="ingredients-modal">
+    <button type="button" class="modal-close-btn" ingredients-modal-close-first>
+      <svg class="modal-close-btn" width="16" height="16">
+        <use href="./images/sprite.svg#close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="ingredients-title">Chocolate icecream</h2>
+    <div class="ingredients-wrapper">
+      <span class="ingredients__text"></span>
+      <img
+        class="ingredients__img"
+        src="./images/desktop/ingredients-modal/choc-icecream.png"
+        alt="Ice Cream"
+        width="131"
+        height="131"
+      />
+    </div>
+
+    <!-- List composition -->
+    <ul class="ingredients-list list">
+      <li class="ingredients-list__item">
+        <span class="ingredients-list__composition">kcal</span>
+        <span class="ingredients-list__composition-g">320</span>
+      </li>
+      <li class="ingredients-list__item">
+        <span class="ingredients-list__composition">Prote...</span>
+        <span class="ingredients-list__composition-g">4g</span>
+      </li>
+      <li class="ingredients-list__item">
+        <span class="ingredients-list__composition">Fats</span>
+        <span class="ingredients-list__composition-g">8,2g</span>
+      </li>
+      <li class="ingredients-list__item">
+        <span class="ingredients-list__composition">Carbs</span>
+        <span class="ingredients-list__composition-g">40,4g</span>
+      </li>
+    </ul>
+
+    <!-- Ingredients table -->
+    <table class="table">
+      <caption class="table__title">
+        Ingredients
+      </caption>
+      <tbody class="table__content">
+        <tr class="table__row">
+          <td class="table__desc">Milk</td>
+          <td class="table__desc">100ml</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__desc">Belgian chocolate</td>
+          <td class="table__desc">20g</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__desc">Cream</td>
+          <td class="table__desc">150 ml</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__desc">Cocoa powder</td>
+          <td class="table__desc">30g</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__desc">Sugar</td>
+          <td class="table__desc">40g</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__desc">Vanilla sugar</td>
+          <td class="table__desc">10g</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Modal -->
+    <form class="modal-form">
+      <input
+        type="text"
+        name="user-name"
+        class="modal-form-input"
+        required
+        pattern="^[a-zA-zа-яА-я]+$"
+        placeholder="Name"
+      />
+
+      <input
+        type="tel"
+        name="user-phone"
+        class="modal-form-input"
+        required
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        title="xxx-xxx-xx-xx"
+        placeholder="Phone"
+      />
+
+      <textarea
+        class="modal-form-comment"
+        name="user-comment"
+        placeholder="Comment"
+      ></textarea>
+
+      <button type="submit" class="submit-button">Submit</button>
+    </form>
+  </div>
+</div>

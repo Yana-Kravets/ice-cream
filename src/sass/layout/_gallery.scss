@@ -1,0 +1,179 @@
+.gallery-photo {
+  border-radius: 10px;
+  margin: 0 auto;
+  @media screen and (min-width: 1200px) {
+    // padding-left: 97px;
+    // padding-right: 97px;
+  }
+}
+
+.gallery {
+  transform: translateY(-105px);
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    transform: translateY(-163px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    transform: translateY(-550px);
+  }
+}
+
+.slick-dotted.slick-slider {
+  @media screen and (min-width: 768px) {
+    margin-top: -120px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: -360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bg {
+    height: 1140px;
+    padding-top: 80px;
+    background-color: var(--title-item-text-color);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background: url(../images/mobile/background/bg-ice-cream.jpg);
+
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .bg {
+      background-image: url(../images/mobile/background/bg-ice-cream@2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    height: 958px;
+    // padding-top: 223px;
+    background-color: var(--title-item-text-color);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background: url(../images/tablet/background/bg-ice-cream.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: to bottom 200px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .bg {
+      background-image: url(../images/tablet/background/bg-ice-cream@2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bg {
+    height: 1020px;
+    position: relative;
+    padding-top: 452px;
+    background-color: var(--title-item-text-color);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background: url(../images/desktop/background/bg-ice-cream.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .bg {
+      background-image: url(../images/desktop/background/bg-ice-cream@2x.jpg);
+    }
+  }
+}
+
+.slick-dots li button:before {
+  color: #d6d6d6;
+  background-color: #d6d6d6;
+  border-radius: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #84a178;
+  background-color: #84a178;
+  border-radius: 10px;
+}
+
+.slick-dots {
+  padding-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 20px;
+  }
+
+  @media screen and (min-widht: 1200px) {
+    padding-bottom: 20px;
+  }
+}
+
+.review-picture {
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-photo {
+  background: #6e6e6e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 44px;
+  text-align: center;
+}
+
+.review-text__item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.55;
+
+  color: var(--primary-text-color);
+  margin-bottom: 30px;
+
+  background-color: #84a178;
+  border-radius: 10px;
+  padding: 34px 39px;
+
+  @media screen and (max-width: 767px) {
+    min-height: 280px;
+  }
+}
+
+.review-name__item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.86;
+
+  color: #000000;
+
+  &:last-child {
+    padding-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .review-name__item:last-child {
+    padding-bottom: 32px;
+  }
+}

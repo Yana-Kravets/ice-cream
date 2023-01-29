@@ -1,0 +1,82 @@
+<header>
+  <div class="header">
+    <div class="container">
+      <div class="header-block">
+        <svg class="header-icon" width="60" height="65">
+          <use href="./images/sprite.svg#logo"></use>
+        </svg>
+        <nav class="site-nav">
+          <ul class="site-nav__list list">
+            <li class="site-nav__item">
+              <a href="#header" class="site-nav__link site-nav__link--active"
+                >Home</a
+              >
+            </li>
+            <li class="site-nav__item">
+              <a href="#about" class="site-nav__link">How it’s made?</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="#products" class="site-nav__link">Our products</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="#contacts" class="site-nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="mobile-menu-button" data-menu-op>
+          <svg class="mobile-menu-button__icon" width="32" height="32">
+            <use href="./images/sprite.svg#burger"></use>
+          </svg>
+        </button>
+        <button type="button" class="order-button" buy-now-modal-open="header">
+          Buy now
+          <svg class="order-button__icon" width="6" height="12">
+            <use href="./images/sprite.svg#greater-than"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu js-mobile-menu" data-me>
+    <button type="button" class="mobile-menu-close-button" data-menu-cl>
+      <svg class="mobile-order-button__icon" width="32" height="32">
+        <use href="./images/sprite.svg#close-btn"></use>
+      </svg>
+    </button>
+    <div class="mobile-site-nav-container mobile-backround">
+      <svg class="header-icon1" width="60" height="65">
+        <use href="./images/sprite.svg#logo"></use>
+      </svg>
+      <nav class="mobile-site-nav">
+        <ul class="mobile-site-nav__list list">
+          <li class="mobile-site-nav__item">
+            <a href="#header" class="mobile-site-nav__link js-anchor-scroll"
+              >Home</a
+            >
+          </li>
+          <li class="mobile-site-nav__item">
+            <a href="#about" class="mobile-site-nav__link js-anchor-scroll"
+              >How it’s made?</a
+            >
+          </li>
+          <li class="mobile-site-nav__item">
+            <a href="#products" class="mobile-site-nav__link js-anchor-scroll"
+              >Our products</a
+            >
+          </li>
+          <li class="mobile-site-nav__item">
+            <a href="#contacts" class="mobile-site-nav__link js-anchor-scroll"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <button type="button" class="order-button1" buy-now-modal-mobile-open>
+          Buy now
+          <svg class="order-button__icon" width="5" height="9">
+            <use href="./images/sprite.svg#greater-than"></use>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>

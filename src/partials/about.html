@@ -1,0 +1,70 @@
+<section class="about" id="about">
+  <div class="container">
+        <p class="about__label">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+
+    <div class="about-content">
+      <div class="about-content__overlay">
+        <picture>
+          <source
+            srcset="
+              ./images/mobile/about/cow.png    1x,
+              ./images/mobile/about/cow@2x.png 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ./images/tablet/about/cow.png    1x,
+              ./images/tablet/about/cow@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./images/desktop/about/cow.png    1x,
+              ./images/desktop/about/cow@2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="about-content__img"
+            src="./images/mobile/about/cow.png"
+            alt="cow"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <div class="about-content__wrapper">
+        <ul class="about-content__list list">
+          <li class="about-content__item">
+            <p class="about-content__text">
+              Ice is a place where you will become not only a little happier,
+              but also healthier. Health is the main value for us, and we follow
+              it when creating our handmade desserts.
+            </p>
+          </li>
+          <li class="about-content__item">
+            <p class="about-content__text">
+              We use traditional recipes and 100% natural ingredients. Our
+              products are so natural that they can be given to children from
+              the age of three years. Sweets lovers can expect 55 types of ice
+              cream, 15 types of coffee and 23 milkshakes.
+            </p>
+          </li>
+          <li class="about-content__item">
+            <p class="about-content__text">
+              This is enough to choose ice cream and coffee for any mood!
+            </p>
+          </li>
+        </ul>
+        <button class="about-content__btn" type="button" readmodal-opening>
+          Read more
+          <svg class="about-content__icon" width="5" height="9">
+            <use href="./images/sprite.svg#greater-than"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
